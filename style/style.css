@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ==== CONTAINER ===== */
+
+#container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+/* ==== NAVBAR ==== */
+
+.navbar {
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo a img {
+    width: 50px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.menu-icon {
+    width: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+/* ==== CONTENT ====*/
+
+.content {
+    height: 88%;
+    display: flex;
+    align-items: center;
+}
+
+/* ==== CONTENT TEXT ==== */
+
+.content-text, .content-card {
+    width: 50%;
+}
+
+.content-text h1 {
+    color: white;
+    font-size: 6.3rem;
+}
+
+.content-text p {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.content-text button {
+    width: 180px;
+    padding: 12px 0;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+/* ==== CONTENT CARD ==== */
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+.card1 {
+    background-image: url(../img/img1.jpg);
+}
+
+.card2 {
+    background-image: url(../img/img2.jpg);
+}
+
+.card3 {
+    background-image: url(../img/img3.jpg);
+}
+
+.card4 {
+    background-image: url(../img/img4.jpg);
+}
+
+.card h5 {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.card p {
+    color: white;
+    font-size: 0.8rem;
+}
