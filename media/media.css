@@ -28,7 +28,7 @@
      
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     nav ul li:not(:last-child) {
         display: none;
