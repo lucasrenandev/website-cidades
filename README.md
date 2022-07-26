@@ -1,2 +1,2 @@
 # website-cidades
- Website desenvolvido com html e css
+ Website responsivo desenvolvido com html e css
